@@ -1,0 +1,43 @@
+Basic syntax in  python
+print("Hello World")
+
+comments in python
+# This is a single line comment
+
+'''
+This is a
+multi-line comment
+'''
+
+
+6. Variables in Python
+
+Python creates variables automatically when you assign a value.
+
+name = "Kajal"
+age = 21
+price = 99.50
+
+
+
+Data Types
+Type	Example
+int	10
+float	3.14
+str	"Hello"
+bool	True / False
+list	[1,2,3]
+tuple	(1,2,3)
+dict	{"name":"Kajal"}
+
+
+
+Basic Arithmetic Operators
+Operator	Meaning
++	Addition
+-	Subtraction
+*	Multiplication
+/	Division
+%	Modulus (remainder)
+//	Floor division
+**	Power
