@@ -1,0 +1,87 @@
+## todays topic is data types 
+
+## int
+
+a = 10
+print (a)
+print(type(a))
+
+a= 10.0
+print(a)
+print(type(a))
+
+### string
+
+# string --- ordered sequence of character  
+# single line denoted by ' ' or " " and 
+# multiline string denoted ' ' '  ' ' ' 
+# indexed and immutable
+s=" " # empty string
+print(s)
+print (type(s))
+
+
+s="decode"
+print(s)
+print(type(s))
+print(s[0])
+s[0]="z"
+print(s)
+s=''' hello
+      welcome
+      to bhopal '''
+print(s)
+
+
+### list
+
+# list-- collection of element
+# it is denoted by [] with csv
+# indexed, oredred, mutable, and hetrogenous in nature.
+l=[] # empty list
+print(l)
+print(type(l))
+
+
+# tuple
+# tuple-- collection of elements.
+# denoted by () with csv
+# oredred, indexed,immutable,and hetrogenous
+t=()
+print(t)
+print(type(t))
+
+
+# single line tuple
+# single line tuple
+t=('10.5',)
+print(t)
+print(type(t))
+
+## dic
+
+# dictionary
+# collection datavalue
+# it is denoted by {k:v} with key:value pair
+# oredred,unindexed and mutable,
+# key---unique
+# value----duplicate
+d={} # empty didctionary dict
+print(d)
+print(type(d))
+
+
+# set
+# set ---collection of element
+# it is denoeted{} with csv
+# unoredred, uniindedex, mutable,hetrogenous in nature
+# srored unique value,
+s=set()
+print(s)
+print(type(s))
+
+s={10,10,20,100,200,"decode","h"}
+print(s)
+print(type(s))
+s.add(1000)
+print(s)
