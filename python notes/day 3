@@ -1,0 +1,119 @@
+## oprators code
+✅ Loops in Python – Full Explanation
+
+// Loops are used when you want to repeat a block of code multiple times.
+// Python provides 2 main types of loops:
+
+1️⃣ for Loop
+
+A for loop is used when you know how many times you want to repeat something.
+
+✔ Syntax
+for variable in sequence:
+    # statements
+
+✔ What is a sequence?
+
+list
+
+string
+
+tuple
+
+range()
+
+dictionary
+
+✔ Example 1: Print numbers 1 to 5
+for i in range(1, 6):
+    print(i)
+
+✔ Example 2: Loop through characters in a string
+for ch in "Python":
+    print(ch)
+
+✔ Example 3: Loop through a list
+colors = ["red", "blue", "green"]
+for c in colors:
+    print(c)
+
+2️⃣ while Loop
+
+A while loop is used when you don’t know how many times to repeat,
+but the loop runs as long as a condition is true.
+
+✔ Syntax
+while condition:
+    # statements
+
+✔ Example 1: Print numbers 1 to 5
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+
+✔ Example 2: Run until user enters correct password
+password = ""
+while password != "1234":
+    password = input("Enter password: ")
+print("Access granted")
+
+3️⃣ Control Statements in Loops
+🔸 break
+
+Stops the loop immediately.
+
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+
+🔸 continue
+
+Skips the current iteration and goes to the next one.
+
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+
+🔸 pass
+
+Does nothing. Used as a placeholder.
+
+for i in range(5):
+    pass  # to write later
+
+4️⃣ Else in Loops
+
+Python has a unique feature: an else block can be used with loops.
+
+✔ else runs when loop finishes normally (no break)
+for i in range(5):
+    print(i)
+else:
+    print("Loop completed")
+
+✔ else does NOT run if loop breaks
+for i in range(5):
+    if i == 2:
+        break
+else:
+    print("Will not print")
+
+5️⃣ Nested Loops
+
+A loop inside another loop.
+
+for i in range(3):
+    for j in range(2):
+        print(i, j)
+
+
+Useful for:
+
+patterns
+
+matrices
+
+tables
