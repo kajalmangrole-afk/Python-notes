@@ -1,0 +1,64 @@
+### This is loop in python///
+### write a program to print first n natural number addition of number///
+
+n = int(input("enter any number: "))
+sum_natural = 0
+for i in range(1,n+1):
+    sum_natural = sum_natural + i 
+print(sum_natural)
+
+#### write a program to print first 10even number
+
+n = int(input("enter number : "))
+for i in range (1,n+1):
+    print(i)
+    
+### write a progran to print first print odd number
+n = int(input("enter number :"))
+for i in range(2,21,3):
+    print(i)
+    
+###write a program to print first print odd number
+n = int(input("enter number :"))
+for i in range(2,21,3):
+    print(i)
+    
+
+### print even and odd number
+n = int(input("enter number :"))
+for i in range(1,(2*n)+1):
+    if i%2==0:
+        print(i,"even number :")
+    else:
+        print(i,"odd number :")
+    i=i+1
+    
+    
+### write to print count of even and odd number between 1000 and 2000?
+num= int(input("enter number : "))
+even_count=0
+odd_count=0
+for num in range(1000, 2001):
+    if num %2 ==0:
+        even_count +=1
+    else:
+        odd_count +=1
+print("total even number:", even_count)
+print("total odd number:", odd_count)
+
+# prime number
+
+n = int(input("enter any number: "))
+if n ==0 or n==1:
+    print(n, "not a prime")
+elif n >1:
+    for i in range(2,n):
+        if n%i==0:
+            print(n,"not a prime")
+            break
+    else:
+        print(n,"prime number")
+else:
+     print(n,"not a prime")
+     
+
